@@ -1,0 +1,122 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Adjust side padding */
+p {
+    padding-left: 36px; 
+    padding-right: 36px;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+li{
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+/* Body style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f5f5dc; 
+    color: #5a5a5a; 
+}
+
+/* Header and Navigation Styles */
+header {
+    background: #8a7f7a;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f5f5dc; 
+}
+
+/* Main content styles */
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #dfd7ca; 
+    border: 1px solid #c2b8a3; 
+}
+
+/* Footer styles */
+footer {
+    background: #8a7f7a; 
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive design for navigation bar */
+@media (max-width: 600px) {
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+    }
+}
+
+/* Image and icon adjustments*/
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.image-container {
+    margin: 20px 0; 
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+.icon {
+    width: 48px;   
+    height: 48px;  
+    vertical-align: middle;   
+}
